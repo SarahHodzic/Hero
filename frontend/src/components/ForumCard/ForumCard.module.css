@@ -1,0 +1,31 @@
+
+.content{
+    display: -webkit-box;
+          -webkit-line-clamp: 5; /* Limit to 5 lines */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 1.5em; 
+          max-height: 7.5em; 
+          text-align: justify;
+          text-justify: inter-word;
+}
+
+.expanded1 {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    max-height: none;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+.readMoreButton{
+    background: none;
+    border: none;
+    color: "primary.main";
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+
